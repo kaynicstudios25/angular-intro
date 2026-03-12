@@ -1,0 +1,40 @@
+section {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+a {
+    color: rgb(255, 255, 255);
+    background: rgb(101, 101, 218);
+    width: 200px;
+    padding: .5rem;
+    margin: auto;
+
+    border-radius: 12px;
+
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a:hover {
+    background: rgb(139, 139, 243);
+    font-weight: bold;
+    transition: ease-in-out;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+p {
+    line-height: 32px;
+    text-align: center;
+}

@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* -------------------------------------------------------
+   BREAKPOINT REFERENCE
+   Desktop  : min-width: 1024px  → background: antiquewhite
+   Tablet   : 768px – 1023px     → background: lightblue    (TEST COLOR)
+   Mobile   : max-width: 767px   → background: lightcoral   (TEST COLOR)
+------------------------------------------------------- */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+
+    /* Default (Desktop) background */
+    background-color: antiquewhite;
+}
+
+
+app-root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.content-area {
+    flex: 1;
+}

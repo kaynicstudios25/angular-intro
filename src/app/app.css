@@ -1,0 +1,33 @@
+
+/* -------------------------------------------------------
+   NOTE: component CSS is scoped to this component's template.
+   'body' cannot be targeted here — use src/styles.css for that.
+   Target selectors that exist in app.html instead (e.g. main).
+------------------------------------------------------- */
+
+h1 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+/* Responsive padding on the main content area */
+main {
+  padding: 0;
+}
+
+/* Tablet */
+@media screen and (max-width: 1023px) {
+  main {
+    padding: 0;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+  main {
+    padding: 0;
+  }
+}

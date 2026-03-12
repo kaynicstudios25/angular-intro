@@ -1,0 +1,25 @@
+<header class="main-header">
+    <div class="logo">Public Library of Aniston-Calhoun County</div>
+
+    <nav class="nav-list">
+        <ul>
+            <li>
+                <a routerLink="/home" routerLinkActive="active-page">Home</a>
+            </li>
+            <li>
+                <a routerLink="/about-us" routerLinkActive="active-page">About Us</a>
+            </li>
+            <li>
+                <a routerLink="/product" routerLinkActive="active-page">Products</a>
+            </li>
+        </ul>
+
+        <search>
+            <form action="/search" method="get">
+                <!-- <label for="site-search">Search the site</label> -->
+                <input type="search" id="site-search" name="q" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </search>
+    </nav>
+</header>

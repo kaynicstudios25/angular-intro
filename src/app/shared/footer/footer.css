@@ -1,0 +1,28 @@
+footer {
+    background: var(--secondary, #4A7061);
+    color: #FFFFFF;
+    display: flex;
+height: 345px;
+padding: 30px 158px;
+flex-direction: column;
+align-items: center;
+gap: 48px;
+align-self: stretch;
+}
+
+
+.contact {
+    display: flex;
+width: 201px;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+flex-shrink: 0;
+}
+
+ a{
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
