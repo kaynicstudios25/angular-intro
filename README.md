@@ -1,4 +1,4 @@
-# My First Angualar Application
+# My First Angular Application
 
 ### My Experience
 I am still learning javascript and typescript, so the the application doesn't consist of anything to crazy outside of heavy ui building using html and css.
