@@ -1,12 +1,11 @@
-# Angular Intro (Super Simple)
+# My First Angualar Application
 
-This is a tiny Angular starter app, built from the official Angular docs flow:
-- https://angular.dev/overview
+### My Experience
+I am still learning javascript and typescript, so the the application doesn't consist of anything to crazy outside of heavy ui building using html and css.
 
-Think of Angular like a toy box:
-- **Component** = one toy (a piece of UI)
-- **Template** = what the toy looks like (HTML)
-- **Data binding** = magic string connecting data and UI
+### Plan
+1. I aim to integrate some component scripting using typescript adding logic and interactivity in the future
+2. With this being a site redesign for fun, I may not focus to seriously on aesthetics but learn about accessibility integrations with code.
 
 ## Run the app
 
